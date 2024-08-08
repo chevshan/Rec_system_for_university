@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+}
+
+.image {
+    margin-top: 60px;
+    width: 50%;
+    height: auto;
+}
+
+.text-block {
+    margin-top: 80px;
+    width: 50%;
+    padding: 20px;
+}
+
+.text-header-block {
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container-2-text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.head {
+    font-weight: bold;
+}

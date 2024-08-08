@@ -1,0 +1,32 @@
+.header {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 0;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.buttons {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.buttons button {
+    margin: 0 10px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}

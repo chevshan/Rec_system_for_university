@@ -1,0 +1,15 @@
+.collage {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.images img {
+    width: 30%;
+    margin: 10px;
+}
